@@ -3,13 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Seconda Giornata HTML</title>
   </head>
   <body>
     <header>
-      <h1>Tabelle e Forms</h1>
+      <div id="homebar">
+        <a href="https://epicode.com/">
+          <img
+            id="logo"
+            src="https://s3-eu-west-1.amazonaws.com/tpd/logos/62a6277627ee655c1226b624/0x0.png"
+            width="60px"
+        /></a>
+        <nav>
+          <div class="homebar-icon">
+            <a href="#"><ion-icon name="home-outline"></ion-icon></a>
+            <p>Home</p>
+          </div>
+          <div class="homebar-icon">
+            <a href="#"><ion-icon name="albums-outline"></ion-icon></a>
+            <p>Articoli</p>
+          </div>
+          <div class="homebar-icon">
+            <a href="#"><ion-icon name="git-network-outline"></ion-icon></a>
+            <p>Lavora con noi</p>
+          </div>
+        </nav>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <article>
+        <div>
+          <h1>Sviluppo di una pagina web - Blog Epicode</h1>
+          <hr />
+          <h2>
+            Primi passi operativi per creare un modello di pagina HTML per un
+            post.
+          </h2>
+          <h2>Scopri come iniziare in modo <strong>Facile</strong>!</h2>
+          <div>
+            <div>
+              <p>
+                La prima cosa fa fare è suddividere in blocchi logici la pagina,
+                identificando le parti comuni da applicare a tutte le pagine.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <caption>
+                  <strong> Le varie aree saranno quindi suddivise in: </strong>
+                </caption>
+                <li>contenuti di intestazione dei tag &lt;header&gt;</li>
+                <li>
+                  Contenuti centrali variabili del tag &lt;main&gt; (Corpo
+                  principale)
+                </li>
+                <li>
+                  Contenuti di fine pagina comuni, da inserire nel tag
+                  &lt;footer&gt;
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Formattazione del codice</h3>
+              <p>
+                Il testo dell'articolo dovrà essere formattato per identificare
+                tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+              </p>
+              <ol>
+                <li>
+                  Progettare il markup assegnando ad ogni specidico testo il tag
+                  appropriato
+                </li>
+                <li>
+                  Scrivere l'HTML dei tag esterni a quelli interni e dall'alto
+                  verso il basso
+                </li>
+                <li>Applicare gli stili CSS</li>
+              </ol>
+            </div>
+            <div>
+              <table>
+                <caption>
+                  Diffusione dei CSS
+                </caption>
+                <thead>
+                  <th>Anno</th>
+                  <th>% di utilizzo</th>
+                  <th>Supporto dei Browsers</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                  </tr>
+                  <tr>
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>22%</td>
+                  </tr>
+                  <tr>
+                    <td>2004</td>
+                    <td>35%</td>
+                    <td>45%</td>
+                  </tr>
+                  <tr>
+                    <td>2008</td>
+                    <td>80%</td>
+                    <td>51%</td>
+                  </tr>
+                  <tr>
+                    <td>2012</td>
+                    <td>100%</td>
+                    <td>76%</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>
+                Un test di validazione potra' essere fatto tramite il
+                <a href="https://jigsaw.w3.org/css-validator/">tool online</a>
+                dedicato allo scopo.
+              </p>
+              <p>
+                Una volta ottimizzato il tutto, avremo raggiunto il nostro
+                obbiettivo ed essere stati dei veri developers come loro:
+              </p>
+              <div id="iframe">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/aBSZVeBRvDY?si=TREnKfYRKoigY2cb"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
     <footer></footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
